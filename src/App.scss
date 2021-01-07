@@ -1,0 +1,135 @@
+.App {
+  font-family: 'GothamMedium';
+  text-align: center;
+  display: table;
+width: 100%;
+height: 100vh;
+background: #fafafa;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+lable{
+  color: #17121291;
+  font-family: 'GothamThin';
+  font-weight: 600 ;
+}
+
+.form-control{
+  font-family: 'GothamThin';
+    font-weight: 600 !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.img-logo{
+  height: 47px;
+  padding-bottom: 21px;
+
+}
+
+.form-div{
+  width: 30%;
+  margin: auto;
+padding: 50px 38px;
+background: #ffffff;
+border-radius: 7px;
+text-align: left;
+box-shadow: 0px 0px 2px 2px #f5f5f5;
+}
+
+.Login .form-div h4{
+	color: #5f5d5f;
+	font-size: 26px;
+	line-height: 20px;
+	font-weight: 600;
+  font-family: 'GothamMedium' ;
+  margin-bottom: 10px;
+} 
+
+.Login .form-div p{
+	color: #9e9e9e;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: normal;
+  font-family: 'GothamThin';
+  margin-bottom: 3rem;
+  font-weight: 600;
+
+} 
+
+.Login {
+  text-align: center;
+margin: auto;
+display: table-cell;
+position: relative;
+vertical-align: middle;
+}
+
+.check-box{
+  font-size: 14px;
+padding: 10px 0px;
+font-family: 'GothamThin';
+font-weight: 600;
+}
+.btn-style{
+  padding: 0 15px;
+    line-height: 2;
+    padding-bottom: 2px;
+  border-radius: 5px;
+background-color: white;
+box-shadow: none !important;
+outline: none !important;
+border: 1px solid #ccc;
+font-family: 'GothamThin';
+font-weight: 600;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media all and (min-width: 480px) {
+ 
+}
+
+@media all and (max-width: 600px) {
+  .form-div{
+    width: 95%;
+    padding: 14px;
+  }
+}
+
+@media all and (max-width: 1112px) and (min-width: 601px) {
+  .form-div{
+    width: 45%;
+  }
+}
+
